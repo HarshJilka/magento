@@ -1,0 +1,7 @@
+<layout>
+	<hj_adminhtml_hj_index>
+		<reference name="content">
+			<block type="hj/adminhtml_hj_index" name="adminhtml_hj_index"></block>
+		</reference>
+	</hj_adminhtml_hj_index>
+</layout>

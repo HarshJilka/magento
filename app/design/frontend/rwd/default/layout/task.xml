@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <task_index_index>
+        <reference name="content">
+            <block type="task/task" name="template_file" template="task/task.phtml"></block>
+        </reference>
+    </task_index_index>
+    <task_index_editdata>
+        <reference name="content">
+            <block type="task/task" name="template_file" template="task/edit.phtml"></block>
+        </reference>
+    </task_index_editdata>
+</layout>

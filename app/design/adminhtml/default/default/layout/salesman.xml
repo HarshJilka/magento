@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<layout>
+	<hj_adminhtml_salesman_index>
+		<reference name="content">
+			<block type="hj/adminhtml_salesman_index" name="adminhtml_salesman_index"></block>
+		</reference>
+	</hj_adminhtml_salesman_index>
+</layout>
