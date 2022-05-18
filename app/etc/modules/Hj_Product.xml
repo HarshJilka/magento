@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Hj_Product>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Hj_Product>	
+	</modules>
+</config>

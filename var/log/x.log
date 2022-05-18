@@ -1,0 +1,42 @@
+2022-05-13T06:34:49+00:00 DEBUG (7): Array
+(
+    [Root] => 0
+    [Accessories] => 12
+    [Accessories/Laptops] => 13
+    [Accessories/Laptops/Dell] => 14
+    [Accessories/Mobile] => 15
+    [Accessories/Mobile/xiomi] => 16
+    [/] => 27
+    [//] => 28
+)
+
+2022-05-13T07:30:54+00:00 DEBUG (7): Array
+(
+    [Root] => 0
+    [Accessories] => 12
+    [Accessories/Laptops] => 13
+    [Accessories/Laptops/Dell] => 14
+    [Accessories/Mobile] => 15
+    [Accessories/Mobile/xiomi] => 16
+    [/] => 37
+    [//] => 38
+    [///] => 32
+)
+
+2022-05-17T07:55:57+00:00 DEBUG (7): Array
+(
+    [Root] => 0
+    [Bedroom] => 25
+    [Bedroom/Bed] => 39
+    [///] => 40
+)
+
+2022-05-17T07:56:00+00:00 DEBUG (7): Array
+(
+    [Root] => 0
+    [Bedroom] => 25
+    [Bedroom/Bed] => 39
+    [Bedroom/Bed/Headboard] => 40
+    [///] => 41
+)
+

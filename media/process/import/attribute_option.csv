@@ -1,0 +1,5 @@
+index,attribute_code,option,option_order
+1,salesman_gender,Male,1
+2,salesman_gender,Female,2
+3,salesman_status,Active,1
+4,salesman_status,Inactive,2

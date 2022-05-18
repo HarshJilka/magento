@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Hj_Product>
+			<version>1.0.0</version>
+		</Hj_Product>
+	</modules>
+	<admin>
+		<routers>
+			<product>
+				<use>admin</use>
+				<args>
+					<module>Hj_Product</module>
+                    <frontName>Product</frontName>
+				</args>
+			</product>
+			<!-- <adminhtml>
+				<args>
+					<modules>
+						<Hj_Product before="Mage_Adminhtml">Hj_Product</Hj_Product>
+					</modules>
+				</args>
+			</adminhtml> -->
+		</routers>
+	</admin>
+	<adminhtml>
+		<menu>
+	        <product translate="title" module="product">
+	            <title>Product</title>
+	            <sort_order>40</sort_order>
+	            <children>
+	                <manage translate="title" module="product">
+	                    <title>Manage Products</title>
+	                    <action>product/adminhtml_product/index</action>
+	                    <sort_order>0</sort_order>
+	                </manage>
+	            </children>
+	         </product>
+	     </menu>
+	     <!-- <layout>
+	     	<updates>
+	     		<product>
+	     			<file>product.xml</file>
+	     		</product>
+	     	</updates>
+	     </layout> -->
+	</adminhtml>
+	<global>
+		<events>
+            <dispatch_event_testing>
+                <observers>
+                    <product_observer>
+                        <class>product/observer</class>
+                        <method>sendMail</method>
+                    </product_observer>
+                    <product_observer>
+                        <class>product/observer</class>
+                        <method>sendMessage</method>
+                    </product_observer>
+                </observers>
+            </dispatch_event_testing>
+        </events> 
+		<helpers>
+            <product>
+                <class>Hj_Product_Helper</class>
+            </product>
+            <!-- <catalog>
+				<rewrite>
+					<data>Hj_Product_Helper_Catalog_Data</data>
+				</rewrite>
+			</catalog> -->
+        </helpers>
+        <blocks>
+	        <product>
+	            <class>Hj_Product_Block</class>
+	        </product>
+	        <adminhtml>
+		    	<rewrite>
+					<catalog_product_grid>Hj_Product_Block_Catalog_Product_Grid</catalog_product_grid>
+		    	</rewrite>
+	        </adminhtml>
+        </blocks>
+        <models>
+        	<catalog>
+                <rewrite>
+                    <product>Hj_Product_Model_Catalog_Product</product>
+                </rewrite>
+            </catalog>
+            <product>
+                <class>Hj_Product_Model</class>
+                <resourceModel>product_resource</resourceModel>
+            </product>
+            <product_resource>
+                <class>Hj_Product_Model_Resource</class>
+                <deprecatedNode>product_mysql4</deprecatedNode>
+                <entities>
+                    <product>
+                        <table>product</table>
+                    </product>
+                </entities>
+            </product_resource>    
+        </models>
+	</global>	
+</config>

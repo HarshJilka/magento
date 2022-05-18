@@ -1,0 +1,40 @@
+2022-05-17T04:09:46+00:00 DEBUG (7): Array
+(
+    [attribute_code] => salesman_gender
+    [values] => Array
+        (
+            [1] => Male
+        )
+
+)
+
+2022-05-17T04:09:46+00:00 DEBUG (7): Array
+(
+    [attribute_code] => salesman_gender
+    [values] => Array
+        (
+            [2] => Female
+        )
+
+)
+
+2022-05-17T04:09:50+00:00 DEBUG (7): Array
+(
+    [attribute_code] => salesman_status
+    [values] => Array
+        (
+            [1] => Active
+        )
+
+)
+
+2022-05-17T04:09:50+00:00 DEBUG (7): Array
+(
+    [attribute_code] => salesman_status
+    [values] => Array
+        (
+            [2] => Inactive
+        )
+
+)
+

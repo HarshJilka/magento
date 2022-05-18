@@ -1,0 +1,2970 @@
+2022-05-13T06:34:03+00:00 DEBUG (7): UPDATE `category` SET `path` = '27', `parent_id` = '0' WHERE `category_id` = '27'
+2022-05-13T06:42:02+00:00 DEBUG (7): UPDATE `category` SET `path` = '29', `parent_id` = '0' WHERE `category_id` = '29'
+2022-05-13T07:07:05+00:00 DEBUG (7): UPDATE `category` SET `path` = '36', `parent_id` = '0' WHERE `category_id` = '36'
+2022-05-13T07:29:19+00:00 DEBUG (7): UPDATE `category` SET `path` = '37', `parent_id` = '0' WHERE `category_id` = '37'
+2022-05-17T07:55:57+00:00 DEBUG (7): Varien_Db_Select Object
+(
+    [_bind:protected] => Array
+        (
+        )
+
+    [_adapter:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+        (
+            [_defaultStmtClass:protected] => Varien_Db_Statement_Pdo_Mysql
+            [_transactionLevel:protected] => 0
+            [_connectionFlagsSet:protected] => 1
+            [_ddlCache:protected] => Array
+                (
+                    [1] => Array
+                        (
+                            [category] => Array
+                                (
+                                    [category_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => category_id
+                                            [COLUMN_POSITION] => 1
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 1
+                                            [PRIMARY_POSITION] => 1
+                                            [IDENTITY] => 1
+                                        )
+
+                                    [name] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => name
+                                            [COLUMN_POSITION] => 2
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 128
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [status] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => status
+                                            [COLUMN_POSITION] => 3
+                                            [DATA_TYPE] => tinyint
+                                            [DEFAULT] => 2
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [path] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => path
+                                            [COLUMN_POSITION] => 4
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 64
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [parent_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => parent_id
+                                            [COLUMN_POSITION] => 5
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [created_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => created_date
+                                            [COLUMN_POSITION] => 6
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [updated_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => updated_date
+                                            [COLUMN_POSITION] => 7
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 1
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [_bindParams:protected] => Array
+                (
+                )
+
+            [_bindIncrement:protected] => 0
+            [_debug:protected] => 
+            [_logQueryTime:protected] => 0.05
+            [_logAllQueries:protected] => 
+            [_logCallStack:protected] => 
+            [_debugFile:protected] => var/debug/pdo_mysql.log
+            [_debugIoAdapter:protected] => 
+            [_debugTimer:protected] => 0
+            [_cacheAdapter:protected] => Varien_Cache_Core Object
+                (
+                    [_specificOptions:protected] => Array
+                        (
+                            [slab_size] => 0
+                        )
+
+                    [_backend:protected] => Zend_Cache_Backend_File Object
+                        (
+                            [_options:protected] => Array
+                                (
+                                    [cache_dir] => C:\xampp\htdocs\magento\var\cache\
+                                    [file_locking] => 1
+                                    [read_control] => 1
+                                    [read_control_type] => crc32
+                                    [hashed_directory_level] => 1
+                                    [hashed_directory_perm] => 511
+                                    [file_name_prefix] => mage
+                                    [cache_file_perm] => 384
+                                    [metadatas_array_max_size] => 100
+                                )
+
+                            [_metadatasArray:protected] => Array
+                                (
+                                    [abc_CORE_CACHE_OPTIONS] => Array
+                                        (
+                                            [hash] => 2573875284
+                                            [mtime] => 1651122533
+                                            [expire] => 9999999999
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_ADMIN_NOTIFICATIONS_LASTCHECK] => Array
+                                        (
+                                            [hash] => 1752813048
+                                            [mtime] => 1652771820
+                                            [expire] => 1652779020
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_DB_PDO_MYSQL_DDL_category_1] => Array
+                                        (
+                                            [hash] => 2420502692
+                                            [mtime] => 1652774157
+                                            [expire] => 1652781357
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_DB_PDO_MYSQL_DDL
+                                                )
+
+                                        )
+
+                                )
+
+                            [_directives:protected] => Array
+                                (
+                                    [lifetime] => 7200
+                                    [logging] => 
+                                    [logger] => 
+                                )
+
+                        )
+
+                    [_options:protected] => Array
+                        (
+                            [write_control] => 1
+                            [caching] => 1
+                            [cache_id_prefix] => abc_
+                            [automatic_serialization] => 
+                            [automatic_cleaning_factor] => 0
+                            [lifetime] => 7200
+                            [logging] => 
+                            [logger] => 
+                            [ignore_user_abort] => 
+                        )
+
+                    [_lastId:Zend_Cache_Core:private] => abc_DB_PDO_MYSQL_DDL_category_1
+                    [_extendedBackend:protected] => 1
+                    [_backendCapabilities:protected] => Array
+                        (
+                            [automatic_cleaning] => 1
+                            [tags] => 1
+                            [expired_read] => 1
+                            [priority] => 
+                            [infinite_lifetime] => 1
+                            [get_list] => 1
+                        )
+
+                )
+
+            [_isDdlCacheAllowed:protected] => 1
+            [_ddlColumnTypes:protected] => Array
+                (
+                    [boolean] => bool
+                    [smallint] => smallint
+                    [integer] => int
+                    [bigint] => bigint
+                    [float] => float
+                    [decimal] => decimal
+                    [numeric] => decimal
+                    [date] => date
+                    [timestamp] => timestamp
+                    [datetime] => datetime
+                    [text] => text
+                    [blob] => blob
+                    [varbinary] => blob
+                )
+
+            [_ddlRoutines:protected] => Array
+                (
+                    [0] => alt
+                    [1] => cre
+                    [2] => ren
+                    [3] => dro
+                    [4] => tru
+                )
+
+            [_tempRoutines:protected] => #^\w+\s+temporary\s#im
+            [_intervalUnits:protected] => Array
+                (
+                    [YEARS] => YEAR
+                    [MONTHS] => MONTH
+                    [DAYS] => DAY
+                    [HOURS] => HOUR
+                    [MINUTES] => MINUTE
+                    [SECOND] => SECOND
+                )
+
+            [_queryHook:protected] => Array
+                (
+                    [object] => Mage_Core_Model_Resource_Setup Object
+                        (
+                            [_resourceName:protected] => moneybookers_setup
+                            [_resourceConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [setup] => Mage_Core_Model_Config_Element Object
+                                        (
+                                            [module] => Phoenix_Moneybookers
+                                        )
+
+                                )
+
+                            [_connectionConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [persistent] => 0
+                                    [host] => localhost
+                                    [username] => root
+                                    [password] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [dbname] => magento
+                                    [initStatements] => SET NAMES utf8
+                                    [model] => mysql4
+                                    [type] => pdo_mysql
+                                    [pdoType] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [active] => 1
+                                )
+
+                            [_moduleConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [active] => true
+                                    [codePool] => community
+                                    [version] => 1.6.0.0
+                                )
+
+                            [_callAfterApplyAllUpdates:protected] => 
+                            [_conn:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+ *RECURSION*
+                            [_tables:protected] => Array
+                                (
+                                )
+
+                            [_setupCache:protected] => Array
+                                (
+                                )
+
+                            [_queriesHooked:protected] => 1
+                        )
+
+                    [method] => callbackQueryHook
+                )
+
+            [_pdoType:protected] => mysql
+            [_numericDataTypes:protected] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [INT] => 0
+                    [INTEGER] => 0
+                    [MEDIUMINT] => 0
+                    [SMALLINT] => 0
+                    [TINYINT] => 0
+                    [BIGINT] => 1
+                    [SERIAL] => 1
+                    [DEC] => 2
+                    [DECIMAL] => 2
+                    [DOUBLE] => 2
+                    [DOUBLE PRECISION] => 2
+                    [FIXED] => 2
+                    [FLOAT] => 2
+                )
+
+            [_config:protected] => Array
+                (
+                    [persistent] => 0
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => magento
+                    [initStatements] => SET NAMES utf8
+                    [model] => mysql4
+                    [type] => pdo_mysql
+                    [pdoType] => 
+                    [active] => 1
+                    [charset] => 
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                            [fetchMode] => 2
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+            [_allowSerialization:protected] => 1
+            [_autoReconnectOnUnserialize:protected] => 
+        )
+
+    [_parts:protected] => Array
+        (
+            [straightjoin] => 
+            [distinct] => 
+            [columns] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => main_table
+                            [1] => *
+                            [2] => 
+                        )
+
+                )
+
+            [union] => Array
+                (
+                )
+
+            [from] => Array
+                (
+                    [main_table] => Array
+                        (
+                            [joinType] => from
+                            [schema] => 
+                            [tableName] => category
+                            [joinCondition] => 
+                        )
+
+                )
+
+            [where] => Array
+                (
+                    [0] => (category_id = 25)
+                )
+
+            [group] => Array
+                (
+                )
+
+            [having] => Array
+                (
+                )
+
+            [order] => Array
+                (
+                )
+
+            [limitcount] => 
+            [limitoffset] => 
+            [forupdate] => 
+        )
+
+    [_tableCols:protected] => Array
+        (
+        )
+
+    [_controlCharacters:protected] => Array
+        (
+            [0] => ;
+            [1] => --
+            [2] => #
+            [3] => /*
+            [4] => */
+        )
+
+)
+
+2022-05-17T07:55:57+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/39', `parent_id` = '25' WHERE `category_id` = '39'
+2022-05-17T07:55:57+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/39/40', `parent_id` = '39' WHERE `category_id` = '40'
+2022-05-17T07:56:00+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/39/41', `parent_id` = '39' WHERE `category_id` = '41'
+2022-05-17T07:56:00+00:00 DEBUG (7): Varien_Db_Select Object
+(
+    [_bind:protected] => Array
+        (
+        )
+
+    [_adapter:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+        (
+            [_defaultStmtClass:protected] => Varien_Db_Statement_Pdo_Mysql
+            [_transactionLevel:protected] => 0
+            [_connectionFlagsSet:protected] => 1
+            [_ddlCache:protected] => Array
+                (
+                    [1] => Array
+                        (
+                            [category] => Array
+                                (
+                                    [category_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => category_id
+                                            [COLUMN_POSITION] => 1
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 1
+                                            [PRIMARY_POSITION] => 1
+                                            [IDENTITY] => 1
+                                        )
+
+                                    [name] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => name
+                                            [COLUMN_POSITION] => 2
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 128
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [status] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => status
+                                            [COLUMN_POSITION] => 3
+                                            [DATA_TYPE] => tinyint
+                                            [DEFAULT] => 2
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [path] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => path
+                                            [COLUMN_POSITION] => 4
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 64
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [parent_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => parent_id
+                                            [COLUMN_POSITION] => 5
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [created_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => created_date
+                                            [COLUMN_POSITION] => 6
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [updated_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => updated_date
+                                            [COLUMN_POSITION] => 7
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 1
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [_bindParams:protected] => Array
+                (
+                )
+
+            [_bindIncrement:protected] => 0
+            [_debug:protected] => 
+            [_logQueryTime:protected] => 0.05
+            [_logAllQueries:protected] => 
+            [_logCallStack:protected] => 
+            [_debugFile:protected] => var/debug/pdo_mysql.log
+            [_debugIoAdapter:protected] => 
+            [_debugTimer:protected] => 0
+            [_cacheAdapter:protected] => Varien_Cache_Core Object
+                (
+                    [_specificOptions:protected] => Array
+                        (
+                            [slab_size] => 0
+                        )
+
+                    [_backend:protected] => Zend_Cache_Backend_File Object
+                        (
+                            [_options:protected] => Array
+                                (
+                                    [cache_dir] => C:\xampp\htdocs\magento\var\cache\
+                                    [file_locking] => 1
+                                    [read_control] => 1
+                                    [read_control_type] => crc32
+                                    [hashed_directory_level] => 1
+                                    [hashed_directory_perm] => 511
+                                    [file_name_prefix] => mage
+                                    [cache_file_perm] => 384
+                                    [metadatas_array_max_size] => 100
+                                )
+
+                            [_metadatasArray:protected] => Array
+                                (
+                                    [abc_CORE_CACHE_OPTIONS] => Array
+                                        (
+                                            [hash] => 2573875284
+                                            [mtime] => 1651122533
+                                            [expire] => 9999999999
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_ADMIN_NOTIFICATIONS_LASTCHECK] => Array
+                                        (
+                                            [hash] => 1752813048
+                                            [mtime] => 1652771820
+                                            [expire] => 1652779020
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_DB_PDO_MYSQL_DDL_category_1] => Array
+                                        (
+                                            [hash] => 2420502692
+                                            [mtime] => 1652774157
+                                            [expire] => 1652781357
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_DB_PDO_MYSQL_DDL
+                                                )
+
+                                        )
+
+                                )
+
+                            [_directives:protected] => Array
+                                (
+                                    [lifetime] => 7200
+                                    [logging] => 
+                                    [logger] => 
+                                )
+
+                        )
+
+                    [_options:protected] => Array
+                        (
+                            [write_control] => 1
+                            [caching] => 1
+                            [cache_id_prefix] => abc_
+                            [automatic_serialization] => 
+                            [automatic_cleaning_factor] => 0
+                            [lifetime] => 7200
+                            [logging] => 
+                            [logger] => 
+                            [ignore_user_abort] => 
+                        )
+
+                    [_lastId:Zend_Cache_Core:private] => abc_DB_PDO_MYSQL_DDL_category_1
+                    [_extendedBackend:protected] => 1
+                    [_backendCapabilities:protected] => Array
+                        (
+                            [automatic_cleaning] => 1
+                            [tags] => 1
+                            [expired_read] => 1
+                            [priority] => 
+                            [infinite_lifetime] => 1
+                            [get_list] => 1
+                        )
+
+                )
+
+            [_isDdlCacheAllowed:protected] => 1
+            [_ddlColumnTypes:protected] => Array
+                (
+                    [boolean] => bool
+                    [smallint] => smallint
+                    [integer] => int
+                    [bigint] => bigint
+                    [float] => float
+                    [decimal] => decimal
+                    [numeric] => decimal
+                    [date] => date
+                    [timestamp] => timestamp
+                    [datetime] => datetime
+                    [text] => text
+                    [blob] => blob
+                    [varbinary] => blob
+                )
+
+            [_ddlRoutines:protected] => Array
+                (
+                    [0] => alt
+                    [1] => cre
+                    [2] => ren
+                    [3] => dro
+                    [4] => tru
+                )
+
+            [_tempRoutines:protected] => #^\w+\s+temporary\s#im
+            [_intervalUnits:protected] => Array
+                (
+                    [YEARS] => YEAR
+                    [MONTHS] => MONTH
+                    [DAYS] => DAY
+                    [HOURS] => HOUR
+                    [MINUTES] => MINUTE
+                    [SECOND] => SECOND
+                )
+
+            [_queryHook:protected] => Array
+                (
+                    [object] => Mage_Core_Model_Resource_Setup Object
+                        (
+                            [_resourceName:protected] => moneybookers_setup
+                            [_resourceConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [setup] => Mage_Core_Model_Config_Element Object
+                                        (
+                                            [module] => Phoenix_Moneybookers
+                                        )
+
+                                )
+
+                            [_connectionConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [persistent] => 0
+                                    [host] => localhost
+                                    [username] => root
+                                    [password] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [dbname] => magento
+                                    [initStatements] => SET NAMES utf8
+                                    [model] => mysql4
+                                    [type] => pdo_mysql
+                                    [pdoType] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [active] => 1
+                                )
+
+                            [_moduleConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [active] => true
+                                    [codePool] => community
+                                    [version] => 1.6.0.0
+                                )
+
+                            [_callAfterApplyAllUpdates:protected] => 
+                            [_conn:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+ *RECURSION*
+                            [_tables:protected] => Array
+                                (
+                                )
+
+                            [_setupCache:protected] => Array
+                                (
+                                )
+
+                            [_queriesHooked:protected] => 1
+                        )
+
+                    [method] => callbackQueryHook
+                )
+
+            [_pdoType:protected] => mysql
+            [_numericDataTypes:protected] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [INT] => 0
+                    [INTEGER] => 0
+                    [MEDIUMINT] => 0
+                    [SMALLINT] => 0
+                    [TINYINT] => 0
+                    [BIGINT] => 1
+                    [SERIAL] => 1
+                    [DEC] => 2
+                    [DECIMAL] => 2
+                    [DOUBLE] => 2
+                    [DOUBLE PRECISION] => 2
+                    [FIXED] => 2
+                    [FLOAT] => 2
+                )
+
+            [_config:protected] => Array
+                (
+                    [persistent] => 0
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => magento
+                    [initStatements] => SET NAMES utf8
+                    [model] => mysql4
+                    [type] => pdo_mysql
+                    [pdoType] => 
+                    [active] => 1
+                    [charset] => 
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                            [fetchMode] => 2
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+            [_allowSerialization:protected] => 1
+            [_autoReconnectOnUnserialize:protected] => 
+        )
+
+    [_parts:protected] => Array
+        (
+            [straightjoin] => 
+            [distinct] => 
+            [columns] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => main_table
+                            [1] => *
+                            [2] => 
+                        )
+
+                )
+
+            [union] => Array
+                (
+                )
+
+            [from] => Array
+                (
+                    [main_table] => Array
+                        (
+                            [joinType] => from
+                            [schema] => 
+                            [tableName] => category
+                            [joinCondition] => 
+                        )
+
+                )
+
+            [where] => Array
+                (
+                    [0] => (category_id = 25)
+                )
+
+            [group] => Array
+                (
+                )
+
+            [having] => Array
+                (
+                )
+
+            [order] => Array
+                (
+                )
+
+            [limitcount] => 
+            [limitoffset] => 
+            [forupdate] => 
+        )
+
+    [_tableCols:protected] => Array
+        (
+        )
+
+    [_controlCharacters:protected] => Array
+        (
+            [0] => ;
+            [1] => --
+            [2] => #
+            [3] => /*
+            [4] => */
+        )
+
+)
+
+2022-05-17T07:56:00+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/42', `parent_id` = '25' WHERE `category_id` = '42'
+2022-05-17T18:22:57+00:00 DEBUG (7): Varien_Db_Select Object
+(
+    [_bind:protected] => Array
+        (
+        )
+
+    [_adapter:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+        (
+            [_defaultStmtClass:protected] => Varien_Db_Statement_Pdo_Mysql
+            [_transactionLevel:protected] => 0
+            [_connectionFlagsSet:protected] => 1
+            [_ddlCache:protected] => Array
+                (
+                    [1] => Array
+                        (
+                            [category] => Array
+                                (
+                                    [category_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => category_id
+                                            [COLUMN_POSITION] => 1
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 1
+                                            [PRIMARY_POSITION] => 1
+                                            [IDENTITY] => 1
+                                        )
+
+                                    [name] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => name
+                                            [COLUMN_POSITION] => 2
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 128
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [status] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => status
+                                            [COLUMN_POSITION] => 3
+                                            [DATA_TYPE] => tinyint
+                                            [DEFAULT] => 2
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [path] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => path
+                                            [COLUMN_POSITION] => 4
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 64
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [parent_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => parent_id
+                                            [COLUMN_POSITION] => 5
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [created_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => created_date
+                                            [COLUMN_POSITION] => 6
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [updated_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => updated_date
+                                            [COLUMN_POSITION] => 7
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 1
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [_bindParams:protected] => Array
+                (
+                )
+
+            [_bindIncrement:protected] => 0
+            [_debug:protected] => 
+            [_logQueryTime:protected] => 0.05
+            [_logAllQueries:protected] => 
+            [_logCallStack:protected] => 
+            [_debugFile:protected] => var/debug/pdo_mysql.log
+            [_debugIoAdapter:protected] => 
+            [_debugTimer:protected] => 0
+            [_cacheAdapter:protected] => Varien_Cache_Core Object
+                (
+                    [_specificOptions:protected] => Array
+                        (
+                            [slab_size] => 0
+                        )
+
+                    [_backend:protected] => Zend_Cache_Backend_File Object
+                        (
+                            [_options:protected] => Array
+                                (
+                                    [cache_dir] => C:\xampp\htdocs\magento\var\cache\
+                                    [file_locking] => 1
+                                    [read_control] => 1
+                                    [read_control_type] => crc32
+                                    [hashed_directory_level] => 1
+                                    [hashed_directory_perm] => 511
+                                    [file_name_prefix] => mage
+                                    [cache_file_perm] => 384
+                                    [metadatas_array_max_size] => 100
+                                )
+
+                            [_metadatasArray:protected] => Array
+                                (
+                                    [abc_CORE_CACHE_OPTIONS] => Array
+                                        (
+                                            [hash] => 2573875284
+                                            [mtime] => 1651122533
+                                            [expire] => 9999999999
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_ADMIN_NOTIFICATIONS_LASTCHECK] => Array
+                                        (
+                                            [hash] => 1148225587
+                                            [mtime] => 1652811648
+                                            [expire] => 1652818848
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_DB_PDO_MYSQL_DDL_category_1] => Array
+                                        (
+                                            [hash] => 2420502692
+                                            [mtime] => 1652811777
+                                            [expire] => 1652818977
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_DB_PDO_MYSQL_DDL
+                                                )
+
+                                        )
+
+                                )
+
+                            [_directives:protected] => Array
+                                (
+                                    [lifetime] => 7200
+                                    [logging] => 
+                                    [logger] => 
+                                )
+
+                        )
+
+                    [_options:protected] => Array
+                        (
+                            [write_control] => 1
+                            [caching] => 1
+                            [cache_id_prefix] => abc_
+                            [automatic_serialization] => 
+                            [automatic_cleaning_factor] => 0
+                            [lifetime] => 7200
+                            [logging] => 
+                            [logger] => 
+                            [ignore_user_abort] => 
+                        )
+
+                    [_lastId:Zend_Cache_Core:private] => abc_DB_PDO_MYSQL_DDL_category_1
+                    [_extendedBackend:protected] => 1
+                    [_backendCapabilities:protected] => Array
+                        (
+                            [automatic_cleaning] => 1
+                            [tags] => 1
+                            [expired_read] => 1
+                            [priority] => 
+                            [infinite_lifetime] => 1
+                            [get_list] => 1
+                        )
+
+                )
+
+            [_isDdlCacheAllowed:protected] => 1
+            [_ddlColumnTypes:protected] => Array
+                (
+                    [boolean] => bool
+                    [smallint] => smallint
+                    [integer] => int
+                    [bigint] => bigint
+                    [float] => float
+                    [decimal] => decimal
+                    [numeric] => decimal
+                    [date] => date
+                    [timestamp] => timestamp
+                    [datetime] => datetime
+                    [text] => text
+                    [blob] => blob
+                    [varbinary] => blob
+                )
+
+            [_ddlRoutines:protected] => Array
+                (
+                    [0] => alt
+                    [1] => cre
+                    [2] => ren
+                    [3] => dro
+                    [4] => tru
+                )
+
+            [_tempRoutines:protected] => #^\w+\s+temporary\s#im
+            [_intervalUnits:protected] => Array
+                (
+                    [YEARS] => YEAR
+                    [MONTHS] => MONTH
+                    [DAYS] => DAY
+                    [HOURS] => HOUR
+                    [MINUTES] => MINUTE
+                    [SECOND] => SECOND
+                )
+
+            [_queryHook:protected] => Array
+                (
+                    [object] => Mage_Core_Model_Resource_Setup Object
+                        (
+                            [_resourceName:protected] => moneybookers_setup
+                            [_resourceConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [setup] => Mage_Core_Model_Config_Element Object
+                                        (
+                                            [module] => Phoenix_Moneybookers
+                                        )
+
+                                )
+
+                            [_connectionConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [persistent] => 0
+                                    [host] => localhost
+                                    [username] => root
+                                    [password] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [dbname] => magento
+                                    [initStatements] => SET NAMES utf8
+                                    [model] => mysql4
+                                    [type] => pdo_mysql
+                                    [pdoType] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [active] => 1
+                                )
+
+                            [_moduleConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [active] => true
+                                    [codePool] => community
+                                    [version] => 1.6.0.0
+                                )
+
+                            [_callAfterApplyAllUpdates:protected] => 
+                            [_conn:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+ *RECURSION*
+                            [_tables:protected] => Array
+                                (
+                                )
+
+                            [_setupCache:protected] => Array
+                                (
+                                )
+
+                            [_queriesHooked:protected] => 1
+                        )
+
+                    [method] => callbackQueryHook
+                )
+
+            [_pdoType:protected] => mysql
+            [_numericDataTypes:protected] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [INT] => 0
+                    [INTEGER] => 0
+                    [MEDIUMINT] => 0
+                    [SMALLINT] => 0
+                    [TINYINT] => 0
+                    [BIGINT] => 1
+                    [SERIAL] => 1
+                    [DEC] => 2
+                    [DECIMAL] => 2
+                    [DOUBLE] => 2
+                    [DOUBLE PRECISION] => 2
+                    [FIXED] => 2
+                    [FLOAT] => 2
+                )
+
+            [_config:protected] => Array
+                (
+                    [persistent] => 0
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => magento
+                    [initStatements] => SET NAMES utf8
+                    [model] => mysql4
+                    [type] => pdo_mysql
+                    [pdoType] => 
+                    [active] => 1
+                    [charset] => 
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                            [fetchMode] => 2
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+            [_allowSerialization:protected] => 1
+            [_autoReconnectOnUnserialize:protected] => 
+        )
+
+    [_parts:protected] => Array
+        (
+            [straightjoin] => 
+            [distinct] => 
+            [columns] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => main_table
+                            [1] => *
+                            [2] => 
+                        )
+
+                )
+
+            [union] => Array
+                (
+                )
+
+            [from] => Array
+                (
+                    [main_table] => Array
+                        (
+                            [joinType] => from
+                            [schema] => 
+                            [tableName] => category
+                            [joinCondition] => 
+                        )
+
+                )
+
+            [where] => Array
+                (
+                    [0] => (category_id = 25)
+                )
+
+            [group] => Array
+                (
+                )
+
+            [having] => Array
+                (
+                )
+
+            [order] => Array
+                (
+                )
+
+            [limitcount] => 
+            [limitoffset] => 
+            [forupdate] => 
+        )
+
+    [_tableCols:protected] => Array
+        (
+        )
+
+    [_controlCharacters:protected] => Array
+        (
+            [0] => ;
+            [1] => --
+            [2] => #
+            [3] => /*
+            [4] => */
+        )
+
+)
+
+2022-05-17T18:22:57+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/43', `parent_id` = '25' WHERE `category_id` = '43'
+2022-05-17T18:22:58+00:00 DEBUG (7): Varien_Db_Select Object
+(
+    [_bind:protected] => Array
+        (
+        )
+
+    [_adapter:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+        (
+            [_defaultStmtClass:protected] => Varien_Db_Statement_Pdo_Mysql
+            [_transactionLevel:protected] => 0
+            [_connectionFlagsSet:protected] => 1
+            [_ddlCache:protected] => Array
+                (
+                    [1] => Array
+                        (
+                            [category] => Array
+                                (
+                                    [category_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => category_id
+                                            [COLUMN_POSITION] => 1
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 1
+                                            [PRIMARY_POSITION] => 1
+                                            [IDENTITY] => 1
+                                        )
+
+                                    [name] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => name
+                                            [COLUMN_POSITION] => 2
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 128
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [status] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => status
+                                            [COLUMN_POSITION] => 3
+                                            [DATA_TYPE] => tinyint
+                                            [DEFAULT] => 2
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [path] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => path
+                                            [COLUMN_POSITION] => 4
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 64
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [parent_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => parent_id
+                                            [COLUMN_POSITION] => 5
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [created_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => created_date
+                                            [COLUMN_POSITION] => 6
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [updated_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => updated_date
+                                            [COLUMN_POSITION] => 7
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 1
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [_bindParams:protected] => Array
+                (
+                )
+
+            [_bindIncrement:protected] => 0
+            [_debug:protected] => 
+            [_logQueryTime:protected] => 0.05
+            [_logAllQueries:protected] => 
+            [_logCallStack:protected] => 
+            [_debugFile:protected] => var/debug/pdo_mysql.log
+            [_debugIoAdapter:protected] => 
+            [_debugTimer:protected] => 0
+            [_cacheAdapter:protected] => Varien_Cache_Core Object
+                (
+                    [_specificOptions:protected] => Array
+                        (
+                            [slab_size] => 0
+                        )
+
+                    [_backend:protected] => Zend_Cache_Backend_File Object
+                        (
+                            [_options:protected] => Array
+                                (
+                                    [cache_dir] => C:\xampp\htdocs\magento\var\cache\
+                                    [file_locking] => 1
+                                    [read_control] => 1
+                                    [read_control_type] => crc32
+                                    [hashed_directory_level] => 1
+                                    [hashed_directory_perm] => 511
+                                    [file_name_prefix] => mage
+                                    [cache_file_perm] => 384
+                                    [metadatas_array_max_size] => 100
+                                )
+
+                            [_metadatasArray:protected] => Array
+                                (
+                                    [abc_CORE_CACHE_OPTIONS] => Array
+                                        (
+                                            [hash] => 2573875284
+                                            [mtime] => 1651122533
+                                            [expire] => 9999999999
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_ADMIN_NOTIFICATIONS_LASTCHECK] => Array
+                                        (
+                                            [hash] => 1148225587
+                                            [mtime] => 1652811648
+                                            [expire] => 1652818848
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_DB_PDO_MYSQL_DDL_category_1] => Array
+                                        (
+                                            [hash] => 2420502692
+                                            [mtime] => 1652811777
+                                            [expire] => 1652818977
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_DB_PDO_MYSQL_DDL
+                                                )
+
+                                        )
+
+                                )
+
+                            [_directives:protected] => Array
+                                (
+                                    [lifetime] => 7200
+                                    [logging] => 
+                                    [logger] => 
+                                )
+
+                        )
+
+                    [_options:protected] => Array
+                        (
+                            [write_control] => 1
+                            [caching] => 1
+                            [cache_id_prefix] => abc_
+                            [automatic_serialization] => 
+                            [automatic_cleaning_factor] => 0
+                            [lifetime] => 7200
+                            [logging] => 
+                            [logger] => 
+                            [ignore_user_abort] => 
+                        )
+
+                    [_lastId:Zend_Cache_Core:private] => abc_DB_PDO_MYSQL_DDL_category_1
+                    [_extendedBackend:protected] => 1
+                    [_backendCapabilities:protected] => Array
+                        (
+                            [automatic_cleaning] => 1
+                            [tags] => 1
+                            [expired_read] => 1
+                            [priority] => 
+                            [infinite_lifetime] => 1
+                            [get_list] => 1
+                        )
+
+                )
+
+            [_isDdlCacheAllowed:protected] => 1
+            [_ddlColumnTypes:protected] => Array
+                (
+                    [boolean] => bool
+                    [smallint] => smallint
+                    [integer] => int
+                    [bigint] => bigint
+                    [float] => float
+                    [decimal] => decimal
+                    [numeric] => decimal
+                    [date] => date
+                    [timestamp] => timestamp
+                    [datetime] => datetime
+                    [text] => text
+                    [blob] => blob
+                    [varbinary] => blob
+                )
+
+            [_ddlRoutines:protected] => Array
+                (
+                    [0] => alt
+                    [1] => cre
+                    [2] => ren
+                    [3] => dro
+                    [4] => tru
+                )
+
+            [_tempRoutines:protected] => #^\w+\s+temporary\s#im
+            [_intervalUnits:protected] => Array
+                (
+                    [YEARS] => YEAR
+                    [MONTHS] => MONTH
+                    [DAYS] => DAY
+                    [HOURS] => HOUR
+                    [MINUTES] => MINUTE
+                    [SECOND] => SECOND
+                )
+
+            [_queryHook:protected] => Array
+                (
+                    [object] => Mage_Core_Model_Resource_Setup Object
+                        (
+                            [_resourceName:protected] => moneybookers_setup
+                            [_resourceConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [setup] => Mage_Core_Model_Config_Element Object
+                                        (
+                                            [module] => Phoenix_Moneybookers
+                                        )
+
+                                )
+
+                            [_connectionConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [persistent] => 0
+                                    [host] => localhost
+                                    [username] => root
+                                    [password] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [dbname] => magento
+                                    [initStatements] => SET NAMES utf8
+                                    [model] => mysql4
+                                    [type] => pdo_mysql
+                                    [pdoType] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [active] => 1
+                                )
+
+                            [_moduleConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [active] => true
+                                    [codePool] => community
+                                    [version] => 1.6.0.0
+                                )
+
+                            [_callAfterApplyAllUpdates:protected] => 
+                            [_conn:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+ *RECURSION*
+                            [_tables:protected] => Array
+                                (
+                                )
+
+                            [_setupCache:protected] => Array
+                                (
+                                )
+
+                            [_queriesHooked:protected] => 1
+                        )
+
+                    [method] => callbackQueryHook
+                )
+
+            [_pdoType:protected] => mysql
+            [_numericDataTypes:protected] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [INT] => 0
+                    [INTEGER] => 0
+                    [MEDIUMINT] => 0
+                    [SMALLINT] => 0
+                    [TINYINT] => 0
+                    [BIGINT] => 1
+                    [SERIAL] => 1
+                    [DEC] => 2
+                    [DECIMAL] => 2
+                    [DOUBLE] => 2
+                    [DOUBLE PRECISION] => 2
+                    [FIXED] => 2
+                    [FLOAT] => 2
+                )
+
+            [_config:protected] => Array
+                (
+                    [persistent] => 0
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => magento
+                    [initStatements] => SET NAMES utf8
+                    [model] => mysql4
+                    [type] => pdo_mysql
+                    [pdoType] => 
+                    [active] => 1
+                    [charset] => 
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                            [fetchMode] => 2
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+            [_allowSerialization:protected] => 1
+            [_autoReconnectOnUnserialize:protected] => 
+        )
+
+    [_parts:protected] => Array
+        (
+            [straightjoin] => 
+            [distinct] => 
+            [columns] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => main_table
+                            [1] => *
+                            [2] => 
+                        )
+
+                )
+
+            [union] => Array
+                (
+                )
+
+            [from] => Array
+                (
+                    [main_table] => Array
+                        (
+                            [joinType] => from
+                            [schema] => 
+                            [tableName] => category
+                            [joinCondition] => 
+                        )
+
+                )
+
+            [where] => Array
+                (
+                    [0] => (category_id = 39)
+                )
+
+            [group] => Array
+                (
+                )
+
+            [having] => Array
+                (
+                )
+
+            [order] => Array
+                (
+                )
+
+            [limitcount] => 
+            [limitoffset] => 
+            [forupdate] => 
+        )
+
+    [_tableCols:protected] => Array
+        (
+        )
+
+    [_controlCharacters:protected] => Array
+        (
+            [0] => ;
+            [1] => --
+            [2] => #
+            [3] => /*
+            [4] => */
+        )
+
+)
+
+2022-05-17T18:22:58+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/39/44', `parent_id` = '39' WHERE `category_id` = '44'
+2022-05-17T18:23:01+00:00 DEBUG (7): Varien_Db_Select Object
+(
+    [_bind:protected] => Array
+        (
+        )
+
+    [_adapter:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+        (
+            [_defaultStmtClass:protected] => Varien_Db_Statement_Pdo_Mysql
+            [_transactionLevel:protected] => 0
+            [_connectionFlagsSet:protected] => 1
+            [_ddlCache:protected] => Array
+                (
+                    [1] => Array
+                        (
+                            [category] => Array
+                                (
+                                    [category_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => category_id
+                                            [COLUMN_POSITION] => 1
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 1
+                                            [PRIMARY_POSITION] => 1
+                                            [IDENTITY] => 1
+                                        )
+
+                                    [name] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => name
+                                            [COLUMN_POSITION] => 2
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 128
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [status] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => status
+                                            [COLUMN_POSITION] => 3
+                                            [DATA_TYPE] => tinyint
+                                            [DEFAULT] => 2
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [path] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => path
+                                            [COLUMN_POSITION] => 4
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 64
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [parent_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => parent_id
+                                            [COLUMN_POSITION] => 5
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [created_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => created_date
+                                            [COLUMN_POSITION] => 6
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [updated_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => updated_date
+                                            [COLUMN_POSITION] => 7
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 1
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [_bindParams:protected] => Array
+                (
+                )
+
+            [_bindIncrement:protected] => 0
+            [_debug:protected] => 
+            [_logQueryTime:protected] => 0.05
+            [_logAllQueries:protected] => 
+            [_logCallStack:protected] => 
+            [_debugFile:protected] => var/debug/pdo_mysql.log
+            [_debugIoAdapter:protected] => 
+            [_debugTimer:protected] => 0
+            [_cacheAdapter:protected] => Varien_Cache_Core Object
+                (
+                    [_specificOptions:protected] => Array
+                        (
+                            [slab_size] => 0
+                        )
+
+                    [_backend:protected] => Zend_Cache_Backend_File Object
+                        (
+                            [_options:protected] => Array
+                                (
+                                    [cache_dir] => C:\xampp\htdocs\magento\var\cache\
+                                    [file_locking] => 1
+                                    [read_control] => 1
+                                    [read_control_type] => crc32
+                                    [hashed_directory_level] => 1
+                                    [hashed_directory_perm] => 511
+                                    [file_name_prefix] => mage
+                                    [cache_file_perm] => 384
+                                    [metadatas_array_max_size] => 100
+                                )
+
+                            [_metadatasArray:protected] => Array
+                                (
+                                    [abc_CORE_CACHE_OPTIONS] => Array
+                                        (
+                                            [hash] => 2573875284
+                                            [mtime] => 1651122533
+                                            [expire] => 9999999999
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_ADMIN_NOTIFICATIONS_LASTCHECK] => Array
+                                        (
+                                            [hash] => 1148225587
+                                            [mtime] => 1652811648
+                                            [expire] => 1652818848
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_DB_PDO_MYSQL_DDL_category_1] => Array
+                                        (
+                                            [hash] => 2420502692
+                                            [mtime] => 1652811777
+                                            [expire] => 1652818977
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_DB_PDO_MYSQL_DDL
+                                                )
+
+                                        )
+
+                                )
+
+                            [_directives:protected] => Array
+                                (
+                                    [lifetime] => 7200
+                                    [logging] => 
+                                    [logger] => 
+                                )
+
+                        )
+
+                    [_options:protected] => Array
+                        (
+                            [write_control] => 1
+                            [caching] => 1
+                            [cache_id_prefix] => abc_
+                            [automatic_serialization] => 
+                            [automatic_cleaning_factor] => 0
+                            [lifetime] => 7200
+                            [logging] => 
+                            [logger] => 
+                            [ignore_user_abort] => 
+                        )
+
+                    [_lastId:Zend_Cache_Core:private] => abc_DB_PDO_MYSQL_DDL_category_1
+                    [_extendedBackend:protected] => 1
+                    [_backendCapabilities:protected] => Array
+                        (
+                            [automatic_cleaning] => 1
+                            [tags] => 1
+                            [expired_read] => 1
+                            [priority] => 
+                            [infinite_lifetime] => 1
+                            [get_list] => 1
+                        )
+
+                )
+
+            [_isDdlCacheAllowed:protected] => 1
+            [_ddlColumnTypes:protected] => Array
+                (
+                    [boolean] => bool
+                    [smallint] => smallint
+                    [integer] => int
+                    [bigint] => bigint
+                    [float] => float
+                    [decimal] => decimal
+                    [numeric] => decimal
+                    [date] => date
+                    [timestamp] => timestamp
+                    [datetime] => datetime
+                    [text] => text
+                    [blob] => blob
+                    [varbinary] => blob
+                )
+
+            [_ddlRoutines:protected] => Array
+                (
+                    [0] => alt
+                    [1] => cre
+                    [2] => ren
+                    [3] => dro
+                    [4] => tru
+                )
+
+            [_tempRoutines:protected] => #^\w+\s+temporary\s#im
+            [_intervalUnits:protected] => Array
+                (
+                    [YEARS] => YEAR
+                    [MONTHS] => MONTH
+                    [DAYS] => DAY
+                    [HOURS] => HOUR
+                    [MINUTES] => MINUTE
+                    [SECOND] => SECOND
+                )
+
+            [_queryHook:protected] => Array
+                (
+                    [object] => Mage_Core_Model_Resource_Setup Object
+                        (
+                            [_resourceName:protected] => moneybookers_setup
+                            [_resourceConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [setup] => Mage_Core_Model_Config_Element Object
+                                        (
+                                            [module] => Phoenix_Moneybookers
+                                        )
+
+                                )
+
+                            [_connectionConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [persistent] => 0
+                                    [host] => localhost
+                                    [username] => root
+                                    [password] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [dbname] => magento
+                                    [initStatements] => SET NAMES utf8
+                                    [model] => mysql4
+                                    [type] => pdo_mysql
+                                    [pdoType] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [active] => 1
+                                )
+
+                            [_moduleConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [active] => true
+                                    [codePool] => community
+                                    [version] => 1.6.0.0
+                                )
+
+                            [_callAfterApplyAllUpdates:protected] => 
+                            [_conn:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+ *RECURSION*
+                            [_tables:protected] => Array
+                                (
+                                )
+
+                            [_setupCache:protected] => Array
+                                (
+                                )
+
+                            [_queriesHooked:protected] => 1
+                        )
+
+                    [method] => callbackQueryHook
+                )
+
+            [_pdoType:protected] => mysql
+            [_numericDataTypes:protected] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [INT] => 0
+                    [INTEGER] => 0
+                    [MEDIUMINT] => 0
+                    [SMALLINT] => 0
+                    [TINYINT] => 0
+                    [BIGINT] => 1
+                    [SERIAL] => 1
+                    [DEC] => 2
+                    [DECIMAL] => 2
+                    [DOUBLE] => 2
+                    [DOUBLE PRECISION] => 2
+                    [FIXED] => 2
+                    [FLOAT] => 2
+                )
+
+            [_config:protected] => Array
+                (
+                    [persistent] => 0
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => magento
+                    [initStatements] => SET NAMES utf8
+                    [model] => mysql4
+                    [type] => pdo_mysql
+                    [pdoType] => 
+                    [active] => 1
+                    [charset] => 
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                            [fetchMode] => 2
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+            [_allowSerialization:protected] => 1
+            [_autoReconnectOnUnserialize:protected] => 
+        )
+
+    [_parts:protected] => Array
+        (
+            [straightjoin] => 
+            [distinct] => 
+            [columns] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => main_table
+                            [1] => *
+                            [2] => 
+                        )
+
+                )
+
+            [union] => Array
+                (
+                )
+
+            [from] => Array
+                (
+                    [main_table] => Array
+                        (
+                            [joinType] => from
+                            [schema] => 
+                            [tableName] => category
+                            [joinCondition] => 
+                        )
+
+                )
+
+            [where] => Array
+                (
+                    [0] => (category_id = 39)
+                )
+
+            [group] => Array
+                (
+                )
+
+            [having] => Array
+                (
+                )
+
+            [order] => Array
+                (
+                )
+
+            [limitcount] => 
+            [limitoffset] => 
+            [forupdate] => 
+        )
+
+    [_tableCols:protected] => Array
+        (
+        )
+
+    [_controlCharacters:protected] => Array
+        (
+            [0] => ;
+            [1] => --
+            [2] => #
+            [3] => /*
+            [4] => */
+        )
+
+)
+
+2022-05-17T18:23:01+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/39/45', `parent_id` = '39' WHERE `category_id` = '45'
+2022-05-17T18:23:01+00:00 DEBUG (7): Varien_Db_Select Object
+(
+    [_bind:protected] => Array
+        (
+        )
+
+    [_adapter:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+        (
+            [_defaultStmtClass:protected] => Varien_Db_Statement_Pdo_Mysql
+            [_transactionLevel:protected] => 0
+            [_connectionFlagsSet:protected] => 1
+            [_ddlCache:protected] => Array
+                (
+                    [1] => Array
+                        (
+                            [category] => Array
+                                (
+                                    [category_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => category_id
+                                            [COLUMN_POSITION] => 1
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 1
+                                            [PRIMARY_POSITION] => 1
+                                            [IDENTITY] => 1
+                                        )
+
+                                    [name] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => name
+                                            [COLUMN_POSITION] => 2
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 128
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [status] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => status
+                                            [COLUMN_POSITION] => 3
+                                            [DATA_TYPE] => tinyint
+                                            [DEFAULT] => 2
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [path] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => path
+                                            [COLUMN_POSITION] => 4
+                                            [DATA_TYPE] => varchar
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 64
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [parent_id] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => parent_id
+                                            [COLUMN_POSITION] => 5
+                                            [DATA_TYPE] => int
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [created_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => created_date
+                                            [COLUMN_POSITION] => 6
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                    [updated_date] => Array
+                                        (
+                                            [SCHEMA_NAME] => 
+                                            [TABLE_NAME] => category
+                                            [COLUMN_NAME] => updated_date
+                                            [COLUMN_POSITION] => 7
+                                            [DATA_TYPE] => datetime
+                                            [DEFAULT] => 
+                                            [NULLABLE] => 1
+                                            [LENGTH] => 
+                                            [SCALE] => 
+                                            [PRECISION] => 
+                                            [UNSIGNED] => 
+                                            [PRIMARY] => 
+                                            [PRIMARY_POSITION] => 
+                                            [IDENTITY] => 
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [_bindParams:protected] => Array
+                (
+                )
+
+            [_bindIncrement:protected] => 0
+            [_debug:protected] => 
+            [_logQueryTime:protected] => 0.05
+            [_logAllQueries:protected] => 
+            [_logCallStack:protected] => 
+            [_debugFile:protected] => var/debug/pdo_mysql.log
+            [_debugIoAdapter:protected] => 
+            [_debugTimer:protected] => 0
+            [_cacheAdapter:protected] => Varien_Cache_Core Object
+                (
+                    [_specificOptions:protected] => Array
+                        (
+                            [slab_size] => 0
+                        )
+
+                    [_backend:protected] => Zend_Cache_Backend_File Object
+                        (
+                            [_options:protected] => Array
+                                (
+                                    [cache_dir] => C:\xampp\htdocs\magento\var\cache\
+                                    [file_locking] => 1
+                                    [read_control] => 1
+                                    [read_control_type] => crc32
+                                    [hashed_directory_level] => 1
+                                    [hashed_directory_perm] => 511
+                                    [file_name_prefix] => mage
+                                    [cache_file_perm] => 384
+                                    [metadatas_array_max_size] => 100
+                                )
+
+                            [_metadatasArray:protected] => Array
+                                (
+                                    [abc_CORE_CACHE_OPTIONS] => Array
+                                        (
+                                            [hash] => 2573875284
+                                            [mtime] => 1651122533
+                                            [expire] => 9999999999
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_ADMIN_NOTIFICATIONS_LASTCHECK] => Array
+                                        (
+                                            [hash] => 1148225587
+                                            [mtime] => 1652811648
+                                            [expire] => 1652818848
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_MAGE
+                                                )
+
+                                        )
+
+                                    [abc_DB_PDO_MYSQL_DDL_category_1] => Array
+                                        (
+                                            [hash] => 2420502692
+                                            [mtime] => 1652811777
+                                            [expire] => 1652818977
+                                            [tags] => Array
+                                                (
+                                                    [0] => abc_DB_PDO_MYSQL_DDL
+                                                )
+
+                                        )
+
+                                )
+
+                            [_directives:protected] => Array
+                                (
+                                    [lifetime] => 7200
+                                    [logging] => 
+                                    [logger] => 
+                                )
+
+                        )
+
+                    [_options:protected] => Array
+                        (
+                            [write_control] => 1
+                            [caching] => 1
+                            [cache_id_prefix] => abc_
+                            [automatic_serialization] => 
+                            [automatic_cleaning_factor] => 0
+                            [lifetime] => 7200
+                            [logging] => 
+                            [logger] => 
+                            [ignore_user_abort] => 
+                        )
+
+                    [_lastId:Zend_Cache_Core:private] => abc_DB_PDO_MYSQL_DDL_category_1
+                    [_extendedBackend:protected] => 1
+                    [_backendCapabilities:protected] => Array
+                        (
+                            [automatic_cleaning] => 1
+                            [tags] => 1
+                            [expired_read] => 1
+                            [priority] => 
+                            [infinite_lifetime] => 1
+                            [get_list] => 1
+                        )
+
+                )
+
+            [_isDdlCacheAllowed:protected] => 1
+            [_ddlColumnTypes:protected] => Array
+                (
+                    [boolean] => bool
+                    [smallint] => smallint
+                    [integer] => int
+                    [bigint] => bigint
+                    [float] => float
+                    [decimal] => decimal
+                    [numeric] => decimal
+                    [date] => date
+                    [timestamp] => timestamp
+                    [datetime] => datetime
+                    [text] => text
+                    [blob] => blob
+                    [varbinary] => blob
+                )
+
+            [_ddlRoutines:protected] => Array
+                (
+                    [0] => alt
+                    [1] => cre
+                    [2] => ren
+                    [3] => dro
+                    [4] => tru
+                )
+
+            [_tempRoutines:protected] => #^\w+\s+temporary\s#im
+            [_intervalUnits:protected] => Array
+                (
+                    [YEARS] => YEAR
+                    [MONTHS] => MONTH
+                    [DAYS] => DAY
+                    [HOURS] => HOUR
+                    [MINUTES] => MINUTE
+                    [SECOND] => SECOND
+                )
+
+            [_queryHook:protected] => Array
+                (
+                    [object] => Mage_Core_Model_Resource_Setup Object
+                        (
+                            [_resourceName:protected] => moneybookers_setup
+                            [_resourceConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [setup] => Mage_Core_Model_Config_Element Object
+                                        (
+                                            [module] => Phoenix_Moneybookers
+                                        )
+
+                                )
+
+                            [_connectionConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [persistent] => 0
+                                    [host] => localhost
+                                    [username] => root
+                                    [password] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [dbname] => magento
+                                    [initStatements] => SET NAMES utf8
+                                    [model] => mysql4
+                                    [type] => pdo_mysql
+                                    [pdoType] => Mage_Core_Model_Config_Element Object
+                                        (
+                                        )
+
+                                    [active] => 1
+                                )
+
+                            [_moduleConfig:protected] => Mage_Core_Model_Config_Element Object
+                                (
+                                    [active] => true
+                                    [codePool] => community
+                                    [version] => 1.6.0.0
+                                )
+
+                            [_callAfterApplyAllUpdates:protected] => 
+                            [_conn:protected] => Magento_Db_Adapter_Pdo_Mysql Object
+ *RECURSION*
+                            [_tables:protected] => Array
+                                (
+                                )
+
+                            [_setupCache:protected] => Array
+                                (
+                                )
+
+                            [_queriesHooked:protected] => 1
+                        )
+
+                    [method] => callbackQueryHook
+                )
+
+            [_pdoType:protected] => mysql
+            [_numericDataTypes:protected] => Array
+                (
+                    [0] => 0
+                    [1] => 1
+                    [2] => 2
+                    [INT] => 0
+                    [INTEGER] => 0
+                    [MEDIUMINT] => 0
+                    [SMALLINT] => 0
+                    [TINYINT] => 0
+                    [BIGINT] => 1
+                    [SERIAL] => 1
+                    [DEC] => 2
+                    [DECIMAL] => 2
+                    [DOUBLE] => 2
+                    [DOUBLE PRECISION] => 2
+                    [FIXED] => 2
+                    [FLOAT] => 2
+                )
+
+            [_config:protected] => Array
+                (
+                    [persistent] => 0
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => magento
+                    [initStatements] => SET NAMES utf8
+                    [model] => mysql4
+                    [type] => pdo_mysql
+                    [pdoType] => 
+                    [active] => 1
+                    [charset] => 
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                            [fetchMode] => 2
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_defaultProfilerClass:protected] => Zend_Db_Profiler
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+            [_allowSerialization:protected] => 1
+            [_autoReconnectOnUnserialize:protected] => 
+        )
+
+    [_parts:protected] => Array
+        (
+            [straightjoin] => 
+            [distinct] => 
+            [columns] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => main_table
+                            [1] => *
+                            [2] => 
+                        )
+
+                )
+
+            [union] => Array
+                (
+                )
+
+            [from] => Array
+                (
+                    [main_table] => Array
+                        (
+                            [joinType] => from
+                            [schema] => 
+                            [tableName] => category
+                            [joinCondition] => 
+                        )
+
+                )
+
+            [where] => Array
+                (
+                    [0] => (category_id = 25)
+                )
+
+            [group] => Array
+                (
+                )
+
+            [having] => Array
+                (
+                )
+
+            [order] => Array
+                (
+                )
+
+            [limitcount] => 
+            [limitoffset] => 
+            [forupdate] => 
+        )
+
+    [_tableCols:protected] => Array
+        (
+        )
+
+    [_controlCharacters:protected] => Array
+        (
+            [0] => ;
+            [1] => --
+            [2] => #
+            [3] => /*
+            [4] => */
+        )
+
+)
+
+2022-05-17T18:23:01+00:00 DEBUG (7): UPDATE `category` SET `path` = '25/46', `parent_id` = '25' WHERE `category_id` = '46'

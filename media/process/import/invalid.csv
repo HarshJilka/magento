@@ -1,0 +1,4 @@
+"index","category_id","name","sku","price","quantity","status","message"
+"3","","p3","c.com","300","3","Yes","Invalid Category."
+"4","","p4","d.com","400","4","Yes","Invalid Category."
+"5","","p5","e.com","500","5","Yes","Invalid Category."
